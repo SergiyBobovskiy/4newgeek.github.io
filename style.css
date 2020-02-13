@@ -18,7 +18,7 @@
 	display: block;
 	height:100%;
 }
-#my-main-menu span#title{
+#my-main-menu #title{
 	position:absolute;
 	bottom:0;
 	left:0;
@@ -36,14 +36,14 @@
 	opacity: 0.1;
 	
 }
-#my-main-menu li:hover span#title{
+#my-main-menu li:hover #title{
 	color:#fff;
 	background: #767676;
 }
-#my-main-menu span#about{
+#my-main-menu #about{
 	display:none;
 	}
-#my-main-menu li:hover span#about{
+#my-main-menu li:hover #about{
 	display:block;
 	width:100%;
 	position:absolute;
@@ -58,11 +58,11 @@
 	font-weight: bolder;
 	font-family:Arial;
 }
-h2{
+#my-main-menu h2{
 	margin-bottom:-1px;
 	margin-right:0;
 }
-hr{
+#my-main-menu hr{
 	margin:0 60px;
 	padding:0;
 	float:right;
@@ -72,12 +72,12 @@ hr{
 	border:none;
 	border-radius:50px;
 }
-h2 a{
+#my-main-menu h2 a{
 	text-decoration: none;
 	text-transform: uppercase;
 	letter-spacing: 0.3em;
 	color: #969696;
 }
-h2 a:hover{
+#my-main-menu h2 a:hover{
 	color:#555;
 }
